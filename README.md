@@ -18,6 +18,7 @@ https://github.com/yuanzj/CustomTabBar
 mutating func addLine(to p: [CGPoint])
 ```
 比较简单这里不做赘述。
+
 2. 画弧线
 ```swift
 mutating func addArc(center: [CGPoint], radius: [CGFloat], startAngle: [Angle], endAngle: [Angle], clockwise: [Bool], transform: [CGAffineTransform]
