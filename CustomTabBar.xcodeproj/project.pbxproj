@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		F5119A5E27EED46300FEF9AC /* CustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A5D27EED46300FEF9AC /* CustomTabBarApp.swift */; };
-		F5119A6027EED46300FEF9AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A5F27EED46300FEF9AC /* ContentView.swift */; };
 		F5119A6227EED46700FEF9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5119A6127EED46700FEF9AC /* Assets.xcassets */; };
 		F5119A6527EED46700FEF9AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5119A6427EED46700FEF9AC /* Preview Assets.xcassets */; };
+		F5119A6C27EED57000FEF9AC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A6B27EED57000FEF9AC /* TabBar.swift */; };
+		F5119A6E27EEECFA00FEF9AC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A6D27EEECFA00FEF9AC /* Tab.swift */; };
+		F5119A7027EEF65300FEF9AC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A6F27EEF65300FEF9AC /* Styles.swift */; };
+		F5119A7227EEFBA300FEF9AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A7127EEFBA300FEF9AC /* HomeView.swift */; };
+		F5119A7427EEFBCA00FEF9AC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A7327EEFBCA00FEF9AC /* CalendarView.swift */; };
+		F5119A7627EEFBF200FEF9AC /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A7527EEFBF200FEF9AC /* NotificationsView.swift */; };
+		F5119A7827EEFC1B00FEF9AC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A7727EEFC1B00FEF9AC /* ProfileView.swift */; };
+		F5119A7A27EEFE4800FEF9AC /* TabClipperShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5119A7927EEFE4800FEF9AC /* TabClipperShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5119A5A27EED46300FEF9AC /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5119A5D27EED46300FEF9AC /* CustomTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
-		F5119A5F27EED46300FEF9AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5119A6127EED46700FEF9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5119A6427EED46700FEF9AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5119A6B27EED57000FEF9AC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F5119A6D27EEECFA00FEF9AC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		F5119A6F27EEF65300FEF9AC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		F5119A7127EEFBA300FEF9AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5119A7327EEFBCA00FEF9AC /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F5119A7527EEFBF200FEF9AC /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		F5119A7727EEFC1B00FEF9AC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F5119A7927EEFE4800FEF9AC /* TabClipperShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabClipperShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				F5119A5D27EED46300FEF9AC /* CustomTabBarApp.swift */,
-				F5119A5F27EED46300FEF9AC /* ContentView.swift */,
+				F5119A7927EEFE4800FEF9AC /* TabClipperShape.swift */,
+				F5119A6B27EED57000FEF9AC /* TabBar.swift */,
+				F5119A7127EEFBA300FEF9AC /* HomeView.swift */,
+				F5119A7327EEFBCA00FEF9AC /* CalendarView.swift */,
+				F5119A7527EEFBF200FEF9AC /* NotificationsView.swift */,
+				F5119A7727EEFC1B00FEF9AC /* ProfileView.swift */,
+				F5119A6D27EEECFA00FEF9AC /* Tab.swift */,
+				F5119A6F27EEF65300FEF9AC /* Styles.swift */,
 				F5119A6127EED46700FEF9AC /* Assets.xcassets */,
 				F5119A6327EED46700FEF9AC /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5119A6027EED46300FEF9AC /* ContentView.swift in Sources */,
+				F5119A6C27EED57000FEF9AC /* TabBar.swift in Sources */,
+				F5119A7827EEFC1B00FEF9AC /* ProfileView.swift in Sources */,
+				F5119A7427EEFBCA00FEF9AC /* CalendarView.swift in Sources */,
+				F5119A7027EEF65300FEF9AC /* Styles.swift in Sources */,
+				F5119A7227EEFBA300FEF9AC /* HomeView.swift in Sources */,
 				F5119A5E27EED46300FEF9AC /* CustomTabBarApp.swift in Sources */,
+				F5119A7A27EEFE4800FEF9AC /* TabClipperShape.swift in Sources */,
+				F5119A6E27EEECFA00FEF9AC /* Tab.swift in Sources */,
+				F5119A7627EEFBF200FEF9AC /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
