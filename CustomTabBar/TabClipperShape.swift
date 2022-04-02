@@ -27,7 +27,6 @@ struct TabClipperShape: Shape {
         
         path.addArc(center: CGPoint(x: rect.size.width - radius/2, y: radius/2), radius: radius/2, startAngle: Angle(degrees: 270), endAngle: Angle(degrees: 270+90), clockwise: false)
         
-        path.addLine(to: CGPoint(x: rect.size.width, y: 0))
         path.addLine(to: CGPoint(x: rect.size.width, y: rect.size.height))
         path.addLine(to: CGPoint(x: 0, y: rect.size.height))
 
