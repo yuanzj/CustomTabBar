@@ -18,16 +18,17 @@ https://github.com/yuanzj/CustomTabBar
 mutating func addLine(to p: [CGPoint])
 ```
 比较简单这里不做赘述。
+
 2. 画弧线
 ```swift
 mutating func addArc(center: [CGPoint], radius: [CGFloat], startAngle: [Angle], endAngle: [Angle], clockwise: [Bool], transform: [CGAffineTransform]
 ```
 ![画弧线](画弧线.png)
-center：画圆弧的中心点
-radius：画圆弧的半径
-startAngle：开始角度
-endAngle：介绍角度
-clockwise：顺时针方向（缺省为true 时钟逆时针方向,一般设置为fase调整为时钟顺时针）
+1. center：画圆弧的中心点
+2. radius：画圆弧的半径
+3. startAngle：开始角度
+4. endAngle：介绍角度
+5. clockwise：顺时针方向（缺省为true 时钟逆时针方向,一般设置为fase调整为时钟顺时针）
 
 clockwise为fase时，对应的角度和旋转方向如上图所示
 
